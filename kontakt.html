@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kontakt</h1>
+        <nav>
+            <a href="index.html">Početna</a>
+            <a href="about.html">O BiH</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="kontakt-info">
+            <h2>Naši kontakt podaci</h2>
+            <p>Za sva pitanja ili informacije, možete nas kontaktirati putem sljedećih kanala:</p>
+
+            <div class="kontakt-item">
+                <h3>Email</h3>
+                <p>Možete nam poslati poruku na naš email: <a href="mailto:gradovisarajeva@gmail.ba">gradovisarajeva@gmail.ba</a></p>
+            </div>
+
+            <div class="kontakt-item">
+                <h3>Telefon</h3>
+                <p>Za hitne upite, pozovite nas na broj: <a href="tel:+38761234567">+387 61 234 567</a></p>
+            </div>
+
+            <div class="kontakt-item">
+                <h3>Adresa</h3>
+                <p>Posjetite nas na našoj adresi: <span>Ulica grada Sarajeva 15, Sarajevo, BiH</span></p>
+            </div>
+        </section>
+
+        <section class="kontakt-forma">
+            <h2>Pošaljite nam poruku</h2>
+            <p>Popunite obrazac u nastavku i šaljite nam svoje upite:</p>
+            <form action="submit_form.php" method="post">
+                <label for="ime">Ime:</label>
+                <input type="text" id="ime" name="ime" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="poruka">Poruka:</label>
+                <textarea id="poruka" name="poruka" rows="4" required></textarea>
+
+                <button type="submit">Pošaljite</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="index.html">Nazad na početnu</a></p>
+        <p>© 2024 Gradovi BiH</p>
+    </footer>
+</body>
+</html>
